@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delizioso - Fine Italian Dining Restaurant">
+    <title>Royal Feast | Restaurant Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Royal Feast</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#reservation" class="btn-nav">Book Table</a></li>
+                </ul>
+                <!-- Mobile menu toggle -->
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Experience Authentic Indian Cuisine</h1>
+            <p class="hero-subtitle">Where tradition meets excellence in every dish</p>
+            <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Welcome to Royal Feast</h2>
+                    <p>At Royal Feast, we celebrate the rich flavors and vibrant traditions of Indian cuisine.Our recipes are inspired by authentic regional dishes passed down through generations.</p>
+                    <p>From aromatic biryanis and creamy curries to freshly baked naan and tandoori delights, every dish is crafted using handpicked spices and fresh ingredients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Signature Dishes</h2>
+            <p class="section-subtitle">Handcrafted with love and the finest ingredients</p>
+            
+            <div class="menu-grid">
+                <!-- Menu Card 1 -->
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="menu-biryani.jpg" alt="Hydrabadi biryani">
+                        <div class="menu-card-overlay">
+                            <span class="view-details">View Details</span>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Hydrabadi biryani</h3>
+                        <p>Authentic Hyderabadi dum biryani made with fragrant rice, bold spices, and perfectly cooked chicken.</p>
+                        <div class="menu-card-footer">
+                            <span class="price">₹249</span>
+                            <span class="badge">Popular</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Card 2 -->
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="menu-naan and tanduri.jpg" alt="naan and tandoori">
+                        <div class="menu-card-overlay">
+                            <span class="view-details">View Details</span>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Naan & tandoori</h3>
+                        <p></p>
+                        <div class="menu-card-footer">
+                            <span class="price">₹69</span>
+                            <span class="badge badge-new">Chef's Special</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Card 3 -->
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="menu-butter chicken.jpg" alt="butter chicken">
+                        <div class="menu-card-overlay">
+                            <span class="view-details">View Details</span>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>butter chicken</h3>
+                        <p>Tender butter chicken cooked in a rich, creamy tomato and butter gravy, perfectly balanced with traditional Indian spices.</p>
+                        <div class="menu-card-footer">
+                            <span class="price">₹329</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Card 4 -->
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="menu-showrma.jpg" alt="showrma">
+                        <div class="menu-card-overlay">
+                            <span class="view-details">View Details</span>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>showrma</h3>
+                        <p>Juicy, perfectly seasoned chicken wrapped in soft flatbread with fresh veggies and flavorful sauces. A delicious Middle Eastern classic with bold taste.</p>
+                        <div class="menu-card-footer">
+                            <span class="price">₹199</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Card 5 -->
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="menu-paneer tikka.jpg" alt="paneer tikka">
+                        <div class="menu-card-overlay">
+                            <span class="view-details">View Details</span>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>paneer tikka</h3>
+                        <p>Soft paneer cubes marinated in aromatic spices and grilled in a traditional tandoor for a smoky, flavorful taste.</p>
+                        <div class="menu-card-footer">
+                            <span class="price">₹249</span>
+                            <span class="badge">Popular</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Card 6 -->
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="menu-kebab.jpg" alt="kebab">
+                        <div class="menu-card-overlay">
+                            <span class="view-details">View Details</span>
+                        </div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Kebab</h3>
+                        <p>Juicy, spice-marinated kebabs grilled to perfection, offering a smoky aroma and rich, authentic flavor in every bite.</p>
+                        <div class="menu-card-footer">
+                            <span class="price">₹279</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta">
+                <a href="#" class="btn btn-secondary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <p class="section-subtitle">A glimpse into our culinary artistry</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large">
+                    <img src="gallary-2.png" alt="Elegant Dining">
+                    <div class="gallery-overlay">
+                        <h3>Elegant Dining</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallary-6.jpg" alt="Culinary Art">
+                    <div class="gallery-overlay">
+                        <h3>Culinary Art</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallary-5.jpg" alt="Ambiant Light">
+                    <div class="gallery-overlay">
+                        <h3>Ambiant Light</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallary-3.jpg" alt="Expert Chefs">
+                    <div class="gallery-overlay">
+                        <h3>Expert Chefs</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallary-7.jpg" alt="Best Table">
+                    <div class="gallery-overlay">
+                        <h3>Best Table</h3>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-tall">
+                    <img src="gallary-4.jpg" alt="Desserts">
+                    <div class="gallery-overlay">
+                        <h3>Popular Chefs</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="gallary-1.jpg" alt="Sweet Endings">
+                    <div class="gallery-overlay">
+                        <h3>Sweet Endings</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            <p class="section-subtitle">Reviews from our valued customers</p>
+            
+            <!-- CSS-only carousel using radio buttons -->
+            <div class="testimonial-carousel">
+                <input type="radio" name="testimonial" id="testimonial-1" checked>
+                <input type="radio" name="testimonial" id="testimonial-2">
+                <input type="radio" name="testimonial" id="testimonial-3">
+                
+                <div class="testimonial-slides">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"I had a wonderful dining experience here. The Hyderabadi Biryani was rich and flavorful, and the Butter Chicken was perfectly creamy. The ambiance felt warm and truly Indian. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="costumer-1.jpg" alt="Rohit Kumar">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Rohit Kumar</h4>
+                                    <p>Firsht customer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"An impressive restaurant concept with authentic Indian flavors and a clean, professional presentation. The team has shown great creativity and effort.</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="costumer-2.jpg" alt="Gourav Sinha">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Gourav Sinha</h4>
+                                    <p>Founder – Teckul</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Royal Feast truly lives up to its name. The flavors were rich and authentic, especially the Hyderabadi Biryani. The ambiance felt warm and royal — a perfect place for family dining.</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="costumer-3.jpg" alt="Md Adnan Sami">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Md Adnan Sami</h4>
+                                    <p>Restaurant Owner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation dots -->
+                <div class="testimonial-nav">
+                    <label for="testimonial-1"></label>
+                    <label for="testimonial-2"></label>
+                    <label for="testimonial-3"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <h2 class="section-title">Reserve Your Table</h2>
+                    <p>Book your dining experience with us and enjoy an unforgettable evening of exceptional Royal Feast</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>Mon-Thu: 11:00 AM - 10:00 PM</p>
+                                <p>Fri-Sat: 11:00 AM - 11:00 PM</p>
+                                <p>Sunday: 12:00 PM - 9:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+91 9123869024</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>Located opposite Anugrah Memorial College, Royal Feast is your go-to destination for authentic Indian dining.</p>
+                                <p>Gaya-ji</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reservation-form-wrapper">
+                    <form class="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Adnan" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="Adnan@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 xxxxxxxx" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Number of Guests *</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">Select...</option>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5">5 Guests</option>
+                                    <option value="6">6+ Guests</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Reservation Date *</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Preferred Time *</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select...</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Special Requests (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any dietary restrictions or special occasions?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Confirm Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Royal Feast</h3>
+                    <p>Bringing authentic Indian flavors to your table since 1993. Experience the taste of tradition with every bite.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/adnancoder?igsh=c2ZmeW1qcm15cDd4" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i>Located opposite Anugrah Memorial College,</li>
+                        <li><i class="fas fa-phone"></i>+91 9123869024</li>
+                        <li><i class="fas fa-envelope"></i> info@royalfeast.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <ul class="opening-hours">
+                        <li><span>Monday - Thursday</span> <span>11 AM - 10 PM</span></li>
+                        <li><span>Friday - Saturday</span> <span>11 AM - 11 PM</span></li>
+                        <li><span>Sunday</span> <span>12 PM - 9 PM</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Royal Feast. All rights reserved. | Designed with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
